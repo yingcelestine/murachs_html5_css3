@@ -1,0 +1,20 @@
+body {
+    background: black;
+    color: white;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li::first-letter {
+    font-size: 150%;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:only-child {
+    color: orange;
+}
