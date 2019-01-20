@@ -1,0 +1,110 @@
+body {
+    width: 1000px;
+    border: 3px solid #931420;
+    display: grid;
+    grid-gap: 5px;
+    background-color: antiquewhite;
+    text-align: left;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 1000px;
+    display: grid;
+    grid-gap: 0;
+    background-color: antiquewhite;
+}
+
+.header {
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+h1 {
+    color: #931420;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 3px solid #931420;
+    margin: 0 auto;
+    padding: 1.5em 30px 2em;
+    width: auto;
+    height: 50px;
+    background-image: -moz-linear-gradient(45deg, orange 0%, white 50%, orange 100%);
+    background-image: -webkit-linear-gradient(45deg, orange 0%, white 30%, white 70%, orange 100%);
+}
+
+.headline {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+h2:not(#sale) {
+    margin-left: 15px;
+    font-style: italic;
+    color: #931420;
+}
+
+.opinion {
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+p {
+    margin-left: 15px;
+}
+
+#author {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+.price {
+    grid-row: 4/5;
+    grid-column: 1/4;
+}
+
+.introduction {
+    grid-row: 5/6;
+    grid-column: 1/4;
+    border-bottom: 3px solid #931420;
+    border-top: 3px solid #931420;
+    padding: 8px;
+    margin: 10px;
+}
+
+.contact1 {
+    grid-row: 6/9;
+    grid-column: 1/2;
+}
+
+.contact2 {
+    grid-row: 6/9;
+    grid-column: 2/3;
+}
+
+.contact3 {
+    grid-row: 6/9;
+    grid-column: 3/4;
+}
+
+img:not(#image) {
+    width: 40px;
+    height: 50px;
+    float: left;
+    margin-right: 1em;
+}
+
+.footer {
+    grid-row: 9/10;
+    grid-column: 1/4;
+    background-color: #931420;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
