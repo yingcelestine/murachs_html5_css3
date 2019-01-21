@@ -1,0 +1,74 @@
+/* cute.html*/
+
+body {
+    background-color: antiquewhite;
+    text-align: left;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    display: grid;
+    grid-gap: 3px;
+    border: 15px groove #1ae787b6;
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+.image {
+    float: left;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.evolutionary {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 15px;
+}
+
+ol {
+    background-color: antiquewhite;
+    padding: 15px;
+    list-style-type: upper-roman;
+}
+
+ol li {
+    color: gray;
+    margin: 8px;
+}
+
+.box {
+    width: 120px;
+    background-color: #1ae78762;
+    border: 2px solid #ce0a0ab6;
+    border-radius: 80%;
+    text-align: center;
+    padding: 5px 2px 5px 2px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.label {
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+.label-name {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.label-content {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+ul {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+ul li {
+    background-color: rgb(189, 192, 196);
+    margin: 8px;
+}
